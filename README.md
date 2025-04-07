@@ -1,9 +1,14 @@
 # ReqRespAI
 ****** DISCLAIMER ****************************************************************
-** This application is for EDUCATIONAL PURPOSES ONLY.                           **
-** Do not perform any actions on a domain for which you do not have PERMISSION. **
-** These actions also include any passive scans on a domain                     **
-** Red7en, LLC is not responsible for any illegal activities you may perform.   **
+
+This application is for EDUCATIONAL PURPOSES ONLY.                           
+
+Do not perform any actions on a domain for which you do not have PERMISSION. **
+
+These actions also include any passive scans on a domain                     **
+
+Red7en, LLC is not responsible for any illegal activities you may perform.   **
+
 **********************************************************************************
 
 This application uses a local LLM of your choice running under Ollama to search for OWASP Top 10 vulnerabilities.  
