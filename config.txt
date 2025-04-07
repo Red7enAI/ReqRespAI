@@ -1,0 +1,29 @@
+*Specify the local ollama AI to use
+LLM_MODEL=deepseek-coder  (Example)
+
+*File of Requests/Responses in JSON format output from a ZAP or Burp TrafficLogger.py
+PROXY_FILE=<file location and full name>
+
+*Truncate any Requests larger than Max Input Size
+MAX_INPUT_SIZE=2000
+
+*Max time in seconds for LLM to be in the analyis phase
+BASE_LLM_TIMEOUT=120
+
+*Max time for LLM to complete
+HARD_TIMEOUT=240
+
+*Number of times to try to process a Request or Response
+MAX_RETRIES=3
+
+*Restart OLLAMA after n Requests or Responses
+RESTART_FREQUENCY=5
+
+*Output file of LLM analysis
+LLM_OUTPUT_FILE=LLM.txt
+
+*Errors in analysis
+ERROR_LOG_FILE=errors.txt
+
+*Rejected requests. 
+REJECTED_ENTRIES_FILE=rejected_entries.json
