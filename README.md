@@ -6,7 +6,7 @@
 ** Red7en, LLC is not responsible for any illegal activities you may perform.   **
 **********************************************************************************
 
-This application uses a local LLM of your choice running under Ollama to search for OWASP Top 10 vulnerabilities.  It will also suggest possible exploits.
+This application uses a local LLM of your choice running under Ollama to search for OWASP Top 10 vulnerabilities.  
 
 The effectivness of this application depends on the LLM you choose to search for vulnerabilities and suggest possible exploits.
 
