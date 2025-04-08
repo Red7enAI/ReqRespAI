@@ -3,17 +3,15 @@
 ![image](https://github.com/user-attachments/assets/cbcaf5d4-53a1-49d6-95d9-d99c86e9081b)
 
 
-
-
 ****** DISCLAIMER ****************************************************************
 
 This application is for EDUCATIONAL PURPOSES ONLY.                           
 
-Do not perform any actions on a domain for which you do not have PERMISSION. **
+Do not perform any actions on a domain for which you do not have PERMISSION. 
 
-These actions also include any passive scans on a domain                     **
+These actions also include any passive scans on a domain                     
 
-Red7en, LLC is not responsible for any illegal activities you may perform.   **
+Red7en, LLC is not responsible for any illegal activities you may perform.   
 
 **********************************************************************************
 
@@ -71,3 +69,6 @@ vulnerability_summary.csv
 rejected_entries.json
     A file of rejected requests or responses.
     You may want to rerun ReqRespAnalysis.py for these rejected entries
+
+
+For support email wardellcastles@red7en.com
