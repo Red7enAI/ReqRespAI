@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/cbcaf5d4-53a1-49d6-95d9-d99c86e9081b)
 
 
-****** DISCLAIMER ****************************************************************
+<h3>****** DISCLAIMER ****************************************************************
 
 This application is for EDUCATIONAL PURPOSES ONLY.                           
 
@@ -13,7 +13,7 @@ These actions also include any passive scans on a domain
 
 Red7en, LLC is not responsible for any illegal activities you may perform.   
 
-**********************************************************************************
+**********************************************************************************</h3>
 
 This application uses a local LLM of your choice running under Ollama to search for OWASP Top 10 vulnerabilities.  
 
@@ -30,7 +30,7 @@ and Responses to a JSON file of your specification.
 3) config.txt - Contains values for how the main program should run
 4) ReqRespAnalysis.py - The main program that will pass each Request and Response to the LLM for Analysis
 
-Initial Setup:
+<b>Initial Setup:</b>
 
 1) Install Ollama on your computer.  https://ollama.com/download
 2) Once Ollama is installed, install locally an LLM of your choice at https://ollama.com/search
@@ -48,22 +48,22 @@ Initial Setup:
   * The file specified in Step 5
 
 
-If using ZAP as Proxy Server:
+<b>If using ZAP as Proxy Server:</b>
 * Install ZAPTrafficLogger.py as a StandAlone Script
 * Collect some Requests and Responses
 * When complete, run the ZAPTrafficLogger script to produce a JSON formatted file
 
-If using Burp as Proxy Server
+<b>If using Burp as Proxy Server</b>
 * Install BurpTrafficLogger.py and load it
-* Scan a website
+* Scan a website<
 
-Once the output file from either ZAP or Burpsuite has been created:
+<b>Once the output file from either ZAP or Burpsuite has been created:</b>
 * Verify your settings in config.sys
 * run python ReqRespAnalysis.py
 * Review Configuration settings being used
 * Enter number of entries to skip.  Start from non-0 if this is a restart.
 
-Output files to review:
+<b>Output files to review:</b>
 vulnerability_summary.csv 
     A summarized list of the analysis that the LLM performed and any suggested exploits
 rejected_entries.json
@@ -71,4 +71,4 @@ rejected_entries.json
     You may want to rerun ReqRespAnalysis.py for these rejected entries
 
 
-For support email wardellcastles@red7en.com
+<h3>For support email wardellcastles@red7en.com</h3>
